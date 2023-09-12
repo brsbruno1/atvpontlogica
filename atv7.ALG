@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    produto: caracter
    produtoCel: caracter
    produtoTablet: caracter
@@ -16,7 +16,7 @@ Var
 
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval("Vendemos Celular no valor de R$:20.00")
    escreval("Vendemos Tablets no valor de R$:10.00")
    escreval("")
@@ -36,7 +36,7 @@ Inicio
       ptotal <- preco - desconto
    fimse
 
-   se(produto = produtoCel) e (quantidadeP > 5) entao
+   se(produto = produtoCel) e (quantidadeP <= 5) entao
       preco <- 20 * quantidadeP entao
       desconto <-  preco * 0.02 entao
       ptotal <- preco - desconto
@@ -54,7 +54,7 @@ Inicio
       ptotal <- preco - desconto
    fimse
 
-   se(produto = produtoTablet) e (quantidadeP > 5) entao
+   se(produto = produtoTablet) e (quantidadeP <= 5) entao
       preco <- 10 * quantidadeP entao
       desconto <-  preco * 0.02 entao
       ptotal <- preco - desconto
@@ -71,7 +71,7 @@ Inicio
    escreval("Produto: ", produto)
    escreval("Quantidade de Produtos: ", quantidadeP)
    escreval("Desconto: ", desconto)
-   escreval("Preço R$: ", ptotal :3:2)
+   escreval("PreÃ§o R$: ", ptotal :3:2)
 
 
 
