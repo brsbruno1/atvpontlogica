@@ -1,11 +1,11 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 05/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Na: real
    Nb: real
    Op: real
@@ -26,12 +26,12 @@ Inicio
    sib <- "-"
    sid <- "/"
    sim <- "*"
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-   escreva("N°a: ")
+   escreva("NÂ°a: ")
    leia(Na)
 
-   escreva("N°b: ")
+   escreva("NÂ°b: ")
    leia(Nb)
 
    escreva("Sinal: ")
@@ -44,16 +44,16 @@ Inicio
    fimse
    se(si = sib) entao
       b <- Na - Nb entao
-      escreval("Subtração:", b)
+      escreval("SubtraÃ§Ã£o:", b)
       
    fimse
    se(si = sid) entao
       d <- Na / Nb entao
-      escreval("Divisão:", d)
+      escreval("DivisÃ£o:", d)
    fimse
-   se(si = sis) entao
+   se(si = sim) entao
       m <- Na * Nb  entao
-      escreval("Mutiplicação:", m)
+      escreval("MutiplicaÃ§Ã£o:", m)
    fimse
 
 
